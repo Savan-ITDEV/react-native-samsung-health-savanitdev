@@ -96,9 +96,7 @@ dependencies {
   //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  implementation files('libs/samsung-health-data-1.5.0.aar')
-  implementation files('libs/sdk-v1.0.0.jar')
-
-  
+  implementation files('libs/samsung-health-data-api-1.0.0-b1.aar')
+  implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
 }
 
